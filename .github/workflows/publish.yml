@@ -18,3 +18,5 @@ jobs:
           password: ${{ secrets.GITHUB_TOKEN }}
           registry: ghcr.io
           workdir: ./src/exfiltration-demo
+      - name: Echo
+        run: echo "213" > playground.md
