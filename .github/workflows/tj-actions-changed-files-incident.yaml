@@ -1,6 +1,7 @@
 name: "tj-action changed-files incident"
 
 on:
+  workflow_dispatch:
   pull_request:
     branches:
       - main
